@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://i.ibb.co.com/JqFmWwr/1.jpg",
+        "profile_img": "https://i.ibb.co.com/nQjsFMn/p1.jpg",
+        "name": "Author One",
+        "release_date": "2024-01-01",
+        "read_time": 15,
+        "title": "First Book Title",
+        "hashtags": [
+            "#link1",
+            "#link2"
+        ]
+    },
+    {
+        "id": 2,
+        "cover_img": "https://i.ibb.co.com/W2VbyV2/2.jpg",
+        "profile_img": "https://i.ibb.co.com/6gn8n9f/p2.jpg",
+        "name": "Author Two",
+        "release_date": "2024-02-02",
+        "read_time": 30,
+        "title": "Second Book Title",
+        "hashtags": [
+            "#link3",
+            "#link4"
+        ]
+    },
+    {
+        "id": 3,
+        "cover_img": "https://i.ibb.co.com/Tk9fM5B/3.jpg",
+        "profile_img": "https://i.ibb.co.com/4TT983L/p3.jpg",
+        "name": "Author Three",
+        "release_date": "2024-03-03",
+        "read_time": 20,
+        "title": "Third Book Title",
+        "hashtags": [
+            "#link5",
+            "#link6"
+        ]
+    },
+    {
+        "id": 4,
+        "cover_img": "https://i.ibb.co.com/Rgc885W/4.jpg",
+        "profile_img": "https://i.ibb.co.com/xCQWMXW/p4.jpg",
+        "name": "Author Four",
+        "release_date": "2024-04-04",
+        "read_time": 25,
+        "title": "Fourth Book Title",
+        "hashtags": [
+            "#link7",
+            "#link8"
+        ]
+    },
+    {
+        "id": 5,
+        "cover_img": "https://i.ibb.co.com/HgSjGQ1/5.jpg",
+        "profile_img": "https://i.ibb.co.com/RHcSGcH/p5.jpg",
+        "name": "Author Five",
+        "release_date": "2024-05-05",
+        "read_time": 10,
+        "title": "Fifth Book Title",
+        "hashtags": [
+            "#link9",
+            "#link10"
+        ]
+    }
+]
