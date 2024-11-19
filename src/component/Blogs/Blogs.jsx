@@ -3,7 +3,7 @@ import { useState } from "react";
 import Blog from "../Blog/Blog";
 import PropTypes from "prop-types";
 
-const Blogs = ({handleBookmarks}) => {
+const Blogs = ({handleBookmarks,handleReadTimes}) => {
 
     const [bolgs, setBlogs] = useState([]);
 
@@ -17,7 +17,7 @@ const Blogs = ({handleBookmarks}) => {
     return (
         <div className="grid md:col-span-8 lg:col-span-9">
             {
-                bolgs.map(blog=> <Blog handleBookmarks={handleBookmarks} key={blog.id} blog={blog}></Blog>)
+                bolgs.map(blog=> <Blog handleReadTimes={handleReadTimes} handleBookmarks={handleBookmarks} key={blog.id} blog={blog}></Blog>)
             }
         </div>
     );
