@@ -24,7 +24,8 @@ const Blogs = ({handleBookmarks,handleReadTimes}) => {
 };
 
 Blogs.propTypes={
-    handleBookmarks:PropTypes.func
+    handleBookmarks:PropTypes.func,
+    handleReadTimes:PropTypes.func
 }
 
 export default Blogs;

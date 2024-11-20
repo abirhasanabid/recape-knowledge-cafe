@@ -11,8 +11,11 @@ function App() {
   const [readTimes, setReadTimes] = useState(0);
 
   // Times handlear
-  const handleReadTimes = times => {
+  const handleReadTimes = (id, times) => {
     setReadTimes(readTimes + times);
+    console.log(id);
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
   }
 
   const handleBookmarks = (blog) => {
